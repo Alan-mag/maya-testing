@@ -758,12 +758,23 @@ footer {
 
 
 
+
 /******* My changes ********************************************/
 
+.linki {
+  text-decoration: none;
+  color: white;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.navbar-default .navbar-text {
+  color: white;
+}
 
 #topnav {
   background: #08B3B7;
   color: white;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 #navtitle {
   color: white;
@@ -779,33 +790,46 @@ footer {
 }
 
 
+
 /**** Table styling ******/
 
 table {
     width:100%;
+    color: #024a54;
 }
 table, th, td {
-    border: 1px solid black;
+    border: .5px solid #66b5c6;
     border-collapse: collapse;
 }
 th, td {
     padding: 5px;
     text-align: left;
 }
-table#t01 tr:nth-child(even) {
-    background-color: #eee;
-}
-table#t01 tr:nth-child(odd) {
-   background-color:#fff;
-}
-table#t01 th  {
-    background-color: black;
-    color: white;
+
+table, thead {
+  border: none;
 }
 
+/***** button styling ********/
+button {
+  background-color: #0085a1;
+  border:none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: ;
+  cursor: pointer;
+}
 
 
 
+
+
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
 
 
 

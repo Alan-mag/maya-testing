@@ -1,6 +1,6 @@
 
 
-"use strict";
+/*"use strict";
 
     document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('tab-group').className = 'ready';
@@ -34,4 +34,4 @@
         }
         
     });
-
+*/
