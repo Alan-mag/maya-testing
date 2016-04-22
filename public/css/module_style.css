@@ -1,0 +1,146 @@
+textarea { height: 30%; width: 200px; margin: 10px; }
+.button {
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ddd));
+  background: -moz-linear-gradient(top, #fff, #ddd);  
+  border: 1px solid #bbb;
+}
+
+.button:active {
+  background: -webkit-gradient(linear, left top, left bottom, from(#aaa), to(#333)); 
+  background: -moz-linear-gradient(bottom, #ddd, #aaa); }
+
+
+    
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    margin:0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #2c3e50;    
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+    
+a:link {
+    color: #a8c686;
+    text-decoration:none;
+}
+    
+a:visited {
+    text-decoration:none;
+    color:#FFF;
+}
+    
+a:hover {
+    text-decoration: underline;
+    color: #FC6;
+}
+    
+a:active {
+    text-decoration: none;
+    color: #FC6;
+}
+
+#tab-group h3 {
+    text-align: center;
+}
+    
+#tab-group h3 {
+    text-align: center;    
+}
+
+#tab-header-1 {
+    left: 16px;
+    top: 2px;
+} 
+
+#tab-header-2 {
+    left: 92px;
+    top: 2px;
+} 
+
+#tab-header-3 {
+    left: 156px;
+    top: 2px;
+} 
+    
+.ready {
+    height: 80%;
+    position:relative;
+    margin-bottom: 2em;
+}
+
+#tab-group.ready .tab-header {
+    font-weight: normal;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 4px 6px;
+}
+    
+.ready .tab-header {
+    position: absolute;
+    top: 0;
+    margin: 0;
+    padding: 0.25em 0.5em;
+    left: 0;
+        
+    background: #22303f;
+    border: 1px solid #FFF;
+    border-radius: 4px 4px 0 0;
+    z-index: 2;
+    
+    cursor: pointer;
+    color: white;
+}
+    
+.ready .tab-header.active {
+    background: white;
+    border-bottom-color: white;
+    color: #22303f;
+}
+    
+.ready .tab-content {
+    height: 95%;
+    margin-top: 40px;
+    width: 80%;
+    left: 6px;
+    position: relative;
+    padding: 0.5em;
+    top: 15px;
+    border: 10px solid #22303f;
+    z-index: 1;
+    background: white;
+    zoom: 1;
+
+    border-radius: 5px;
+    text-align: center;
+}
+    
+.ready .tab-content:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+ 
+.ready .tab-content {
+    display: none;
+    text-align: left;
+}
+    
+.ready .tab-content p {
+    margin: 0;
+    padding: 0 0 1em;
+    text-align: left;
+}
+    
+.ready .tab-content.active {
+    display: block;
+}
