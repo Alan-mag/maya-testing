@@ -45,9 +45,9 @@ var BASE_URL_1_es = 'https://plus.google.com/hangouts/_/kxkmc3wyr5cbjn3c7klwiy4p
 var ssc_blob_1_es = '["",0,null,null,null,[],null,null,null,null,null,0,null,'
   'null,null,[0],null,null,[],null,"0",null,null,null,null,null,null,'
   'null,[],[],null,null,null,[],null,null,null,[],null,null,'
-  "[[\"#{803509868804}\",\"#{}\",2]]]";
+  "[[\"#{220180784738}\",\"#{}\",2]]]";
 
-var linko_1_es = BASE_URL_1_es + '?gid=803509868804&gd=INITIAL_DATA';
+var linko_1_es = BASE_URL_1_es + '?gid=220180784738&gd=INITIAL_DATA';
 
 console.log(linko_1_es);
 
