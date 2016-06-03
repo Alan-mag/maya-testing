@@ -5,9 +5,9 @@ var BASE_URL_1 = 'https://plus.google.com/hangouts/_/kxkmc3wyr5cbjn3c7klwiy4p6ye
 var ssc_blob_1 = '["",0,null,null,null,[],null,null,null,null,null,0,null,'
   'null,null,[0],null,null,[],null,"0",null,null,null,null,null,null,'
   'null,[],[],null,null,null,[],null,null,null,[],null,null,'
-  "[[\"#{95736247937}\",\"#{}\",2]]]";
+  "[[\"#{1028715624820}\",\"#{}\",2]]]";
 
-var linko_1 = BASE_URL_1 + '?gid=95736247937&gd=INITIAL_DATA';
+var linko_1 = BASE_URL_1 + '?gid=1028715624820&gd=INITIAL_DATA';
 
 console.log(linko_1);
 
